@@ -34,7 +34,7 @@ abstract class AbstractLoader
     protected $siteCode;
 
     /** @var \RetailCrm\Http\Client */
-    protected $client;
+    public $client;
 
     /** @var string */
     protected $crmUrl;
